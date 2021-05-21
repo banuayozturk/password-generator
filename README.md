@@ -1,7 +1,6 @@
 # password-generator
 
-## Deployed Application: 
-
+## Deployed Application: https://banuayozturk.github.io/password-generator/
 ## Description: 
 This password generator project is my very first JavaScript program. 
 
