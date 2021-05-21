@@ -14,9 +14,9 @@ Besides creating a project with JavaScript,  this project has been a good practi
 ![Portfolio page - 968.1744 ](./images/screen-shot3.png)
 
 ## Credits
- Stack Overflow
- Eloquent JavaScript  / Third Edition / Marijn Haverbeke
- Math.random, object method and more ..https://css-tricks.com/lots-of-ways-to-use-math-random-in-javascript/
+ #Stack Overflow
+ #Eloquent JavaScript  / Third Edition / Marijn Haverbeke
+ #Math.random, object method and more ... https://css-tricks.com/lots-of-ways-to-use-math-random-in-javascript/
 
 ## Contact Me
 For any question about the project, please contact me.
