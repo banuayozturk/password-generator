@@ -14,7 +14,7 @@ Besides creating a project with JavaScript,  this project has been a good practi
 ![Portfolio page - 968.1744 ](./images/screen-shot3.png)
 
 ## Credits
- Stack Overflow
+
  Eloquent JavaScript  / Third Edition / Marijn Haverbeke
 
 ## Contact Me
