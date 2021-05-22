@@ -6,7 +6,6 @@ var generateBtn = document.querySelector("#generate");
  var lowerCase = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'y', 'z' ];
  var upperCase = [ 'A', 'B', 'C', 'D', 'E', 'F', 'G','H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'Y', 'Z' ];
  var specialChar = [ '!' , '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ':', ';', '<', '>', '=', '?', '@', '[', ']', '^', '-', '|', '{', '}','//']  
- //!@#$%^&*()_+~`|}{[]\:;?><,./-=
  var numbers = [ '0','1', '2','3', '4', '5', '6', '7', '8','9']
 
 
@@ -43,7 +42,7 @@ function generatePassword(){
   let passwordLength = prompt('How many characters you want?');
     //User Lenght Choice Validated
   if(passwordLength < 8 || passwordLength > 128){
-        alert("warning!");
+        alert("Please enter numbers between 8 and 128!");
         return generatePassword();
     }
   let isNumbers = confirm('Do you want numbers?');
@@ -70,8 +69,8 @@ function generatePassword(){
     
    //Password Character Type Validated
     if(charNum === 0){
-      alert("please select miminim 1 character type");
-      generatePassword();
+      alert("Please, select miminim 1 character type!");
+      return generatePassword();
     }
 
     for(let i=0; i<passwordLength; i+=charNum) {
@@ -81,10 +80,7 @@ function generatePassword(){
         });
       }
       
-      
       const finalPassword = generatedPassword.slice(0,passwordLength);
-      
-      
       return finalPassword;
 
 }
