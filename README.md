@@ -14,10 +14,16 @@ Besides creating a project with JavaScript,  this project has been a good practi
 ![Portfolio page - 968.1744 ](./images/screen-shot3.png)
 
 ## Credits
+<<<<<<< HEAD
  Stack Overflow
  Eloquent JavaScript]( Third Edition / Marijn Haverbeke
  [Math.random, object method and more](https://css-tricks.com/lots-of-ways-to-use-math-random-in-javascript/)
+=======
+>>>>>>> 4793c186cee393c1993c19867b085a0e97e1c956
 
+ Eloquent JavaScript  / Third Edition / Marijn Haverbeke
+ https://github.com/banuayozturk/password-generator/edit/main/README.md
+ 
 ## Contact Me
 For any question about the project, please contact me.
 [BanuAyozturk](mailto:bnyksl@gmail.com)
